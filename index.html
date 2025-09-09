@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suresh Kumar Sharma — Curriculum Vitae</title>
+  <meta name="description" content="Curriculum Vitae of Suresh Kumar Sharma" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+    /* Add this inside your styles.css */
+    :root{
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent:#0b74ff;
+  --text:#0f172a;
+  --radius:12px;
+  --shadow: 0 6px 18px rgba(15,23,42,0.06);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+.container{
+  max-width:1000px;
+  margin:32px auto;
+  padding:24px;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  gap:20px;
+  align-items:flex-start;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+.hero-left{flex:1;min-width:260px}
+.hero-right{width:260px;min-width:220px}
+
+.name{font-size:28px;margin:0 0 6px;font-weight:800;letter-spacing:-0.2px}
+.title{margin:0 0 18px;color:var(--muted);font-weight:600}
+
+.contact { background:var(--card); padding:14px;border-radius:10px; box-shadow:var(--shadow); margin-bottom:14px; }
+.contact div{margin:6px 0;color:var(--muted)}
+.contact a{color:var(--accent); text-decoration:none}
+
+.profile-card{ background:linear-gradient(180deg, #fff,#fbfeff); padding:18px;border-radius:12px; box-shadow:var(--shadow); }
+.profile-card .meta{margin:8px 0;color:var(--muted); font-weight:600}
+
+/* Buttons */
+.buttons{display:flex; gap:10px; margin-top:8px}
+.btn{
+  display:inline-block; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:700;
+  background:var(--accent); color:#fff;
+  box-shadow: 0 6px 14px rgba(11,116,255,0.16);
+}
+.btn-outline{background:transparent;color:var(--accent); border:2px solid rgba(11,116,255,0.12)}
+
+/* SECTIONS */
+.section{
+  background:var(--card);
+  padding:18px;
+  margin-bottom:14px;
+  border-radius:12px;
+  box-shadow:var(--shadow);
+}
+.section h2{margin:0 0 10px;font-size:18px}
+.objective p{margin:0;color:var(--muted)}
+.two-col{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:8px; color:var(--muted)}
+.list{padding-left:18px; margin: 8px 0 0; color:var(--muted)}
+.job{margin-bottom:12px;padding-bottom:8px;border-bottom:1px dashed #eee}
+.job-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.job-head h3{margin:0;font-size:15px}
+.job-desc{margin:8px 0 0;color:var(--muted)}
+
+.declaration p{margin:0;color:var(--muted)}
+.decl-footer{display:flex;justify-content:space-between;margin-top:12px;color:var(--muted); font-weight:600}
+
+/* Footer */
+.site-footer{ text-align:center; margin-top:18px; padding:18px; border-radius:10px; color:var(--muted)}
+
+/* Responsive */
+@media (max-width:760px){
+  .hero{flex-direction:column}
+  .hero-right{width:100%}
+  .buttons{flex-direction:column}
+  .btn{width:100%; text-align:center}
+.profile-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="hero-left">
+        <h1 class="name">Suresh Kumar Sharma</h1>
+        <p class="title">Curriculum Vitae</p>
+
+        <div class="contact">
+          <div><strong>Phone:</strong> <a href="tel:+917891164120">+91 78911 64120</a></div>
+          <div><strong>Email:</strong> <a href="mailto:ashusurya4120@gmail.com">ashusurya4120@gmail.com</a></div>
+          <div><strong>Location:</strong> Teh–Chomu, Dist. Jaipur, Rajasthan (PIN: 303704)</div>
+        </div>
+
+        <div class="buttons">
+          <a class="btn" href="SURESH KUMAR SHARMA (1).pdf" download>Download CV (PDF)</a>
+          <a class="btn btn-outline" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-image">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.TrAbbR3oGA_Ban6kV98t0AHaE6?pid=Api&P=0&h=180" alt="Profile Photo of Suresh Kumar Sharma">
+        </div>
+        <div class="profile-card">
+          <div class="meta"><strong>DOB:</strong> 10 Aug, 1997</div>
+          <div class="meta"><strong>Gender:</strong> Male</div>
+          <div class="meta"><strong>Marital Status:</strong> Married</div>
+          <div class="meta"><strong>Nationality:</strong> Indian</div>
+          <div class="meta"><strong>Religion:</strong> Hindu</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section objective">
+      <h2>Objective</h2>
+      <p>
+        Seeking a suitable position in accordance with my professional knowledge &amp; experience, qualification
+        and skills gained over the years to the fullest extent for development — thereby contributing to the
+        overall growth and profitability of the organization while attaining self-growth in career.
+      </p>
+    </section>
+
+    <section class="section personal">
+      <h2>Personal Information</h2>
+      <div class="two-col">
+        <div><strong>Name:</strong> Suresh Kumar Sharma</div>
+        <div><strong>Father's Name:</strong> Ramgopal Sharma</div>
+        <div><strong>Date of Birth:</strong> 10/08/1997</div>
+        <div><strong>Sex:</strong> Male</div>
+        <div><strong>Marital Status:</strong> Married</div>
+        <div><strong>Nationality:</strong> Indian</div>
+        <div><strong>Religion:</strong> Hindu</div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <h2>Education</h2>
+      <ul class="list">
+        <li><strong>Post Graduation</strong> — Rajasthan University, Jaipur (2020)</li>
+        <li><strong>Graduation</strong> — Rajasthan University, Jaipur (2017)</li>
+        <li><strong>12th</strong> — Rajasthan Board of Education (2014) — 76.00%</li>
+        <li><strong>10th</strong> — Rajasthan Board of Education (2012) — 74.83%</li>
+      </ul>
+    </section>
+
+    <section class="section experience">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <div class="job-head">
+          <h3>Sales Executive — Shri Associates</h3>
+          <time>2024 — 2025 (1 year)</time>
+        </div>
+        <p class="job-desc">Worked as a Sales Executive (responsibilities included client outreach, sales targets, and customer relationship management).</p>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Sales Officer, Cattle Feed Division — S.R. Industries</h3>
+          <time>2023 — 2024 (1 year)</time>
+        </div>
+        <p class="job-desc">Sales Officer for the cattle feed division — handled field sales and distribution coordination.</p>
+      </div>
+    </section>
+
+    <section class="section skills">
+      <h2>Computer Proficiency</h2>
+      <p>RSCIT — Computer Basic</p>
+
+      <h2 style="margin-top: 18px;">Personal Strengths</h2>
+      <ul class="list">
+        <li>Hard working</li>
+        <li>Creative</li>
+      </ul>
+
+      <h2 style="margin-top: 18px;">Hobbies</h2>
+      <p>Reading knowledge-building books, playing, and listening to Hindi music.</p>
+    </section>
+
+    <section class="section declaration">
+      <h2>Declaration</h2>
+      <p>I hereby declare that the information furnished above is true and correct to the best of my knowledge.</p>
+      <div class="decl-footer">
+        <div><strong>Place:</strong> Jaipur</div>
+        <div><strong>Signature:</strong> (SURESH KUMAR SHARMA)</div>
+      </div>
+    </section>
+
+    <footer id="contact" class="site-footer">
+      <div>
+        <p><strong>Contact</strong></p>
+        <p>Phone: <a href="tel:+917891164120">+91 78911 64120</a> &nbsp;|&nbsp; Email: <a href="mailto:ashusurya4120@gmail.com">ashusurya4120@gmail.com</a></p>
+        <p class="muted">© <span id="year"></span> Suresh Kumar Sharma. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
